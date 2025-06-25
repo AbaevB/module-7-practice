@@ -485,6 +485,11 @@ input[type=search]::-webkit-search-results-decoration {
   background-color: #F5F7F2;
   padding: 28px 0;
 }
+@media (max-width: 1439px) {
+  .main-nav {
+    display: none;
+  }
+}
 .main-nav__list {
   display: grid;
   grid-template-columns: repeat(5, auto);

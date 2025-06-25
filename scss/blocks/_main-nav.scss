@@ -2,6 +2,10 @@
   background-color: $color-saltpan;
   padding: 28px 0;
 
+  @media (max-width: $vp-tablet)  {
+    display: none;
+  }
+
   &__list {
     display: grid;
     grid-template-columns: repeat(5, auto);
