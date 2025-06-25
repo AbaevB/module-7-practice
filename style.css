@@ -789,7 +789,7 @@ input[type=search]::-webkit-search-results-decoration {
     z-index: -1;
     height: 459px;
     border-radius: 20px 0 0 20px;
-    opacity: 0.15;
+    opacity: 0.35;
   }
 }
 .about-company__description {
@@ -799,12 +799,23 @@ input[type=search]::-webkit-search-results-decoration {
   grid-column: 2/3;
   grid-row: span 2;
 }
+@media (max-width: 1439px) {
+  .about-company__description {
+    gap: 25px;
+  }
+}
 .about-company__text {
   font-size: 24px;
   line-height: 32px;
   margin: 0;
   font-weight: 400;
   color: #475009;
+}
+@media (max-width: 1439px) {
+  .about-company__text {
+    font-size: 18px;
+    line-height: 24px;
+  }
 }
 .about-company__list {
   margin: 0 0 44px;

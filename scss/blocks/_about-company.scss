@@ -34,7 +34,7 @@
     z-index: -1;
     height: 459px; 
     border-radius: 20px 0 0 20px;
-    opacity: 0.15;
+    opacity: 0.35;
   }
 }
 
@@ -44,6 +44,9 @@
   gap: 20px;
   grid-column: 2 / 3;
   grid-row: span 2;
+  @include vp-1439  {
+    gap: 25px;
+  }
 }
 
 
@@ -53,6 +56,11 @@
   margin: 0;
   font-weight: 400;
   color: $color-verdun-green;
+
+  @include vp-1439  {
+    font-size: 18px;
+    line-height: 24px;
+  }
 }
 
 &__list {
