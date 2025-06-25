@@ -912,7 +912,7 @@ input[type=search]::-webkit-search-results-decoration {
   width: 280px;
 }
 @media (max-width: 767px) {
-  .about-company {
+  .about-company__btn {
     width: 200px;
   }
 }
