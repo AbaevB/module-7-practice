@@ -16,11 +16,28 @@
       grid-template-columns: 202px 1fr;
       margin: 0 0 30px;
     }
+
+    @include vp-767 {
+      grid-template-columns: 1fr;
+      gap: 25px;
+    }
+  }
+
+  &__left {
+    @include vp-767 {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
   }
   
   &__logo-link {
     display: flex;
     margin: 0 0 25px;
+
+    @include vp-767 {
+      margin: 0;
+    }
   }
   
   &__social {
@@ -62,12 +79,20 @@
     display: flex;
     flex-direction: column;
     gap: 15px;
+
+    @include vp-767 {
+      align-items: center;
+    }
   }
   
   &__contact {
     display: flex;
     flex-direction: column;
     align-items: flex-end;
+
+    @include vp-767 {
+      align-items: center;
+    }
   }
   
   &__contact-text {
@@ -99,5 +124,11 @@
     text-align: right;
     color: $color-verdun-green;
     margin: 0;
+    
+    @include vp-767 {
+    text-align: center;
   }
+  }
+
+  
 }
