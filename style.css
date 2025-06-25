@@ -296,7 +296,13 @@ input[type=search]::-webkit-search-results-decoration {
 
 .custom-checkbox__heading {
   font-size: 18px;
-  line-height: 24px;
+  line-height: 20px;
+}
+@media (max-width: 1439px) {
+  .custom-checkbox__heading {
+    font-size: 15px;
+    line-height: 24px;
+  }
 }
 
 .custom-checkbox__text {
@@ -923,19 +929,55 @@ input[type=search]::-webkit-search-results-decoration {
     background-image: url("../../images/index-form-bg@2x.png");
   }
 }
+@media (max-width: 1439px) {
+  .application {
+    padding: 60px 0 55px;
+    background-image: url("../../images/index-form-bg-tablet.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+}
+@media (-webkit-min-device-pixel-ratio: 2) and (max-width: 1439px), (min-resolution: 2dppx) and (max-width: 1439px) {
+  .application {
+    background-image: url("../../images/index-form-bg@2x.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+}
 .application__wrapper {
   max-width: 930px;
   margin: 0 auto;
+}
+@media (max-width: 1439px) {
+  .application__wrapper {
+    max-width: unset;
+  }
 }
 .application__title {
   font-size: 30px;
   line-height: 36px;
   margin: 0 0 40px 0;
 }
+@media (max-width: 1439px) {
+  .application__title {
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+    margin: 0 0 30px;
+  }
+}
 .application__inner {
   display: flex;
   gap: 70px;
   margin: 0 0 40px 0;
+}
+@media (max-width: 1439px) {
+  .application__inner {
+    gap: 48px;
+    margin: 0 0 36px;
+  }
 }
 .application__group {
   border: none;
@@ -949,6 +991,13 @@ input[type=search]::-webkit-search-results-decoration {
   padding: 0;
   font-weight: 700;
 }
+@media (max-width: 1439px) {
+  .application__group-name {
+    font-size: 20px;
+    line-height: 24px;
+    margin: 0 0 25px;
+  }
+}
 .application__form-wrapper {
   display: flex;
   flex-direction: column;
@@ -957,13 +1006,30 @@ input[type=search]::-webkit-search-results-decoration {
 .application__input {
   width: 430px;
 }
+@media (max-width: 1439px) {
+  .application__input {
+    width: 330px;
+  }
+}
 .application__btn {
   margin: 0 0 20px 0;
   width: 345px;
   padding: 14px;
 }
+@media (max-width: 1439px) {
+  .application__btn {
+    width: 280px;
+    margin: 0 auto 20px;
+  }
+}
 .application__checkbox {
   width: 490px;
+}
+@media (max-width: 1439px) {
+  .application__checkbox {
+    width: 405px;
+    margin: 0 auto;
+  }
 }
 
 .aside-nav {
