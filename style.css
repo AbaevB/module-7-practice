@@ -556,7 +556,7 @@ input[type=search]::-webkit-search-results-decoration {
   .btn {
     font-size: 15px;
     line-height: 20px;
-    padding: 15px;
+    padding: 13px;
   }
 }
 .btn:hover {
@@ -642,6 +642,7 @@ input[type=search]::-webkit-search-results-decoration {
   .hero {
     padding: 40px 0 260px;
     position: relative;
+    margin: 0 0 30px;
   }
 }
 .hero__wrapper {
@@ -799,6 +800,11 @@ input[type=search]::-webkit-search-results-decoration {
     opacity: 0.35;
   }
 }
+@media (max-width: 767px) {
+  .about-company__image {
+    display: none;
+  }
+}
 .about-company__description {
   display: flex;
   flex-direction: column;
@@ -944,6 +950,13 @@ input[type=search]::-webkit-search-results-decoration {
     margin: 0 0 20px;
   }
 }
+@media (max-width: 767px) {
+  .aside-nav__heading {
+    font-size: 12px;
+    line-height: 14px;
+    margin: 0 0 15px;
+  }
+}
 
 .aside-nav__list {
   margin: 0;
@@ -958,6 +971,13 @@ input[type=search]::-webkit-search-results-decoration {
     flex-direction: row;
     justify-content: center;
     gap: 40px;
+  }
+}
+@media (max-width: 767px) {
+  .aside-nav__list {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px 24px;
   }
 }
 
@@ -977,6 +997,12 @@ input[type=search]::-webkit-search-results-decoration {
     height: 45px;
   }
 }
+@media (max-width: 767px) {
+  .aside-nav__link svg {
+    width: 26px;
+    height: 40px;
+  }
+}
 
 .aside-nav__link-text {
   font-size: 20px;
@@ -989,6 +1015,12 @@ input[type=search]::-webkit-search-results-decoration {
   .aside-nav__link-text {
     font-size: 15px;
     line-height: 20px;
+  }
+}
+@media (max-width: 767px) {
+  .aside-nav__link-text {
+    font-size: 12px;
+    line-height: 14px;
   }
 }
 
