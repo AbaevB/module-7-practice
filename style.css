@@ -754,14 +754,12 @@ input[type=search]::-webkit-search-results-decoration {
 .about-company {
   margin: 0 0 70px;
 }
-
 .about-company__wrapper {
   display: grid;
   grid-template-columns: 300px 1fr;
   gap: 30px 50px;
   margin: 0 0 50px;
 }
-
 .about-company__image {
   border-radius: 30px;
   height: 300px;
@@ -769,7 +767,6 @@ input[type=search]::-webkit-search-results-decoration {
   grid-row: 2/3;
   overflow: hidden;
 }
-
 .about-company__description {
   display: flex;
   flex-direction: column;
@@ -777,7 +774,6 @@ input[type=search]::-webkit-search-results-decoration {
   grid-column: 2/3;
   grid-row: span 2;
 }
-
 .about-company__text {
   font-size: 24px;
   line-height: 32px;
@@ -785,7 +781,6 @@ input[type=search]::-webkit-search-results-decoration {
   font-weight: 400;
   color: #475009;
 }
-
 .about-company__list {
   margin: 0 0 44px;
   padding: 0;
@@ -794,11 +789,9 @@ input[type=search]::-webkit-search-results-decoration {
   grid-template-columns: repeat(2, 1fr);
   gap: 20px;
 }
-
 .about-company__item--size-xl {
   grid-column: 1/-1;
 }
-
 .about-company__card-text {
   padding: 32px 25px;
   background-color: #F4F6FA;
@@ -809,7 +802,6 @@ input[type=search]::-webkit-search-results-decoration {
   height: 100%;
   color: #475009;
 }
-
 .about-company__btn {
   margin: 0 auto;
   width: 280px;

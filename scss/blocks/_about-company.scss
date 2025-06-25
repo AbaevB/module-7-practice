@@ -1,15 +1,14 @@
 .about-company {
   margin: 0 0 70px;
-}
 
-.about-company__wrapper {
+  &__wrapper {
   display: grid;
   grid-template-columns: 300px 1fr;
   gap: 30px 50px;
   margin: 0 0 50px;
 }
 
-.about-company__image {
+&__image {
   border-radius: 30px;
   height: 300px;
   width: 300px;
@@ -17,7 +16,7 @@
   overflow: hidden;
 }
 
-.about-company__description {
+&__description {
   display: flex;
   flex-direction: column;
   gap: 20px;
@@ -25,7 +24,8 @@
   grid-row: span 2;
 }
 
-.about-company__text {
+
+&__text {
   font-size: 24px;
   line-height: 32px;
   margin: 0;
@@ -33,7 +33,7 @@
   color: $color-verdun-green;
 }
 
-.about-company__list {
+&__list {
   margin: 0 0 44px;
   padding: 0;
   list-style-type: none;
@@ -42,11 +42,11 @@
   gap: 20px;
 }
 
-.about-company__item--size-xl {
+&__item--size-xl {
   grid-column: 1 / -1;
 }
 
-.about-company__card-text {
+&__card-text {
   padding: 32px 25px;
   background-color: $color-solitude;
   border-radius: 20px;
@@ -57,7 +57,26 @@
   color: $color-verdun-green;
 }
 
-.about-company__btn {
+
+&__btn {
   margin: 0 auto;
   width: 280px;
 }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
