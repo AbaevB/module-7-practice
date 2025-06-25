@@ -140,7 +140,7 @@
         </div>
       </div>
     </section>
-    <!--<section class="about-company">
+    <section class="about-company">
       <div class="container">
         <h2 class="visually-hidden">О компании</h2>
         <div class="about-company__wrapper">
@@ -176,7 +176,11 @@
             </ul>
           </aside>
           <div class="about-company__image">
-            <img src="images/about-company.jpg" height="300" width="300" alt="Фотография девушки и растения">
+            <picture>
+              <source media="(max-width: 1439px) " srcset="images/about-company-tablet.jpg  1x, images/about-company-tablet@2x.jpg 2x">
+              <img src="images/about-company.jpg" height="300" width="300" alt="Фотография девушки и растения">
+            </picture>
+            
           </div>
           <div class="about-company__description">
             <p class="about-company__text">
@@ -220,7 +224,7 @@
         </ul>
         <a class="about-company__btn btn" href="#">Узнать подробнее</a>
       </div>
-    </section>-->
+    </section>
     <!--<section class="application">
       <div class="container">
         <div class="application__wrapper">
