@@ -71,6 +71,12 @@
     justify-content: flex-end;
     gap: 35px;
   }
+
+  &__search {
+    @media (max-width: $vp-tablet)  {
+      display: none;
+    }
+  }
   
   &__user-list {
     align-items: center;
@@ -79,6 +85,10 @@
     list-style-type: none;
     padding: 0;
     margin: 0;
+  }
+
+  &__user-item:last-child  {
+    display: none;
   }
   
   &__user-link {

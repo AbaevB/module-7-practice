@@ -398,6 +398,11 @@ input[type=search]::-webkit-search-results-decoration {
   justify-content: flex-end;
   gap: 35px;
 }
+@media (max-width: 1439px) {
+  .header__search {
+    display: none;
+  }
+}
 .header__user-list {
   align-items: center;
   display: flex;
@@ -405,6 +410,9 @@ input[type=search]::-webkit-search-results-decoration {
   list-style-type: none;
   padding: 0;
   margin: 0;
+}
+.header__user-item:last-child {
+  display: none;
 }
 .header__user-link {
   align-items: center;
